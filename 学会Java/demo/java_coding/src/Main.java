@@ -16,7 +16,7 @@ public class Main {
     }
 }
 
-private class Employee {
+class Employee {
     public static int age;
     public Employee() {
         age = 10;
