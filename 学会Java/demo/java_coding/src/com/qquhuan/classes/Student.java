@@ -1,23 +1,31 @@
 package com.qquhuan.classes;
 
 public class Student {
-    private String Sid;
-    private String Name;
-
-    public String getName() {
-        return Name;
-    }
+    private String sid;
+    private String name;
 
     public String getSid() {
-        return Sid;
-    }
-
-    public void setName(String name) {
-        Name = name;
+        return sid;
     }
 
     public void setSid(String sid) {
-        Sid = sid;
+        this.sid = sid;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Student() {
+        name = "xxx";
+        sid = "SY";
+    }
+
+    public void printInfo() {
+        System.out.println(sid+"-"+name);
+    }
 }
