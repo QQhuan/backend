@@ -4,6 +4,8 @@ public class Student {
     private String sid;
     private String name;
 
+    static int count;
+
     public String getSid() {
         return sid;
     }
