@@ -3,6 +3,7 @@ package com.qquhuan.classes;
 public class Student {
     private String sid;
     private String name;
+    static String School = "中国农业大学";
 
     public String getSid() {
         return sid;
