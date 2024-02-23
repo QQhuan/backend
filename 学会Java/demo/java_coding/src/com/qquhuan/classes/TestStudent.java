@@ -6,7 +6,7 @@ public class TestStudent {
         System.out.println(student.getName()+"-"+student.getSid());
         student.setName("邱焕");
         student.setSid("SY2023308");
+        System.out.println(Student.count);
         System.out.println(student.getName()+"-"+student.getSid());
-
     }
 }

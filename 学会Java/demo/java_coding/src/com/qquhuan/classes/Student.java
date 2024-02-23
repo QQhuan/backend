@@ -5,6 +5,8 @@ public class Student {
     private String name;
     static String School = "中国农业大学";
 
+    static int count;
+
     public String getSid() {
         return sid;
     }
