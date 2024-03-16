@@ -55,6 +55,23 @@ class CImp implements C{
     }
 }
 
+class CImp2 implements C {
+    @Override
+    public void show() {
+
+    }
+
+    @Override
+    public void print() {
+
+    }
+
+    @Override
+    public void printC() {
+
+    }
+}
+
 /*
 * 接口的多实现
 * 一个类可以实现多个接口
