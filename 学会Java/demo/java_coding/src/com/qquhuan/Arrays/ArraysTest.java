@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ArraysTest {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
+        /*int[] arr = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(arr));
 
         int[] arr2 = new int[]{1,2,3,4,5};
@@ -16,6 +16,6 @@ public class ArraysTest {
 
         arr[0] = 99;
         Arrays.sort(arr); // 排序
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));*/
     }
 }
