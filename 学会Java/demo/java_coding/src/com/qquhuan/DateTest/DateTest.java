@@ -1,5 +1,6 @@
 package com.qquhuan.DateTest;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateTest {
@@ -21,5 +22,12 @@ public class DateTest {
 
         long t = now.getTime();
         System.out.println(t);
+
+        // SimpleDateFormat类 用于日期格式化
+        SimpleDateFormat format = new SimpleDateFormat();
+
+        SimpleDateFormat format2 = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
+        Date d3 = new Date();
+        System.out.println(format.format(d3));
     }
 }
