@@ -21,6 +21,7 @@ public class MultiMember {
 }
 
 class Fu {
+    public int age = 50;
     static int num = 1;
     String label = "父类";
 
@@ -30,6 +31,7 @@ class Fu {
 }
 
 class Zi extends Fu{
+    public int age = 20;
      static int num = 2;
     String label = "子类";
 
