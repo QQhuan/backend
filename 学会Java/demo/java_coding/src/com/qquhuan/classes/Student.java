@@ -23,12 +23,25 @@ public class Student {
         this.name = name;
     }
 
-    public Student() {
-        name = "xxx";
-        sid = "SY";
+    public Student(String SName, String Sid) {
+        name = SName;
+        sid = Sid;
+    }
+
+    public Student(){
+        name = "sname";
+        sid = "sid";
     }
 
     public void printInfo() {
         System.out.println(sid+"-"+name);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "sid='" + sid + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

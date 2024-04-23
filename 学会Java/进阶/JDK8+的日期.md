@@ -15,3 +15,16 @@
 | now  | 获取 |
 | of   | 设置 |
 
+## 格式化
+
+- DateTimeFormatter
+
+| 方法      | 说明       |
+| --------- | ---------- |
+| ofPattern | 格式化形式 |
+| format    | 格式化方法 |
+|           |            |
+
+解析：parse
+
+用日历类，调用parse方法
